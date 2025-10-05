@@ -1,0 +1,40 @@
+body {
+  /* Resetting the default here */
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Georgia", sans-serif;
+}
+
+#intro_div {
+  position: relative;
+  background-color: white;
+  z-index: 1;
+  height: 2000vh;
+}
+
+#article_wrapper {
+  position: relative;
+  background-color: grey;
+  height: 2000vh; /* Length of the interactive scroll article */
+}
+
+#content_wrapper {
+  position: relative;
+  background-color: grey;
+  height: 2000vh; /* Length of the interactive scroll article */
+}
+
+#outro_div {
+  position: relative;
+  background-color: grey;
+  z-index: 3;
+  height: 2000vh;
+}
+
+#canvas_wrapper {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
